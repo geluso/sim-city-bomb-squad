@@ -1,0 +1,41 @@
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.unexploded {
+  background-image: url('img/simcity.jpg');
+}
+
+.exploded {
+  background-image: url('img/explosion.jpg');
+}
+
+.bomb {
+  background-color: black;
+  display: inline-block;
+  padding: 1em;
+  margin: 5em;
+}
+
+#timer {
+  font-family: monospace;
+  font-size: x-large;
+  padding: 1em;
+}
+
+.active {
+  color: red;
+}
+
+.defused {
+  color: green;
+}
+
+button {
+  margin-top: 1em;
+  width: 100%;
+}
